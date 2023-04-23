@@ -1,0 +1,190 @@
+header {
+  background-color: #FFFFFF;
+  color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+a{
+  text-decoration: none;
+  color: #333333;
+  font-size: 20px;
+}
+
+a:hover{
+  color: #CA0F1F;
+}
+
+.left{
+  font-family: 'Roboto', sans-serif;
+  margin: 10px;
+  padding: 10px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background: -webkit-linear-gradient(#d35151, #CA0F1F);
+}
+
+.logo a {
+  color: #333333;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* login and register */
+.login a {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.skill {
+    margin: 1%;
+    padding: 2%;
+    width: 20%;
+    border: 1px solid;
+    background-color: #fff;
+}
+.skill-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.skill-title img {width: 50%;}
+.skill-title h4 {margin-bottom: 5%;}
+
+.products-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left:300px;
+}
+
+.actions{
+  font-family: 'Roboto', sans-serif;
+  list-style: none outside none;
+  border: 1px solid #E0E0E0;
+  display: block;
+  float: right;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 16px;
+  padding: 5px;
+  text-decoration: none;
+  background-color: #fc0;
+}
+
+
+/* footer styles */
+.footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    overflow: hidden;
+
+}
+
+.footer .row {
+    position: relative;
+}
+
+.footer .widget-text__widget ul li a {
+    color: #c2c2c2;
+}
+
+.footer .widget-text__widget ul li a:hover {
+    color: #f39c12;
+}
+
+.footer__main {
+    padding: 160px 50px 50px;
+}
+
+.footer__copyright {
+    text-align: center;
+    padding: 15px 10;
+    border-bottom: 1px solid rgba(235, 235, 235, .1);
+}
+
+.footer__item {
+    margin-bottom: 20px;
+}
+
+.footer__item .consult_logo {
+    margin-bottom: 20px;
+}
+
+.footer__item .form-sub {
+    padding-right: 0;
+}
+
+/* кнопка back to top*/
+.consult_backToTop {
+    top: 10px;
+    right: 30px;
+    position: absolute;
+    display: block;
+    text-align: right;
+}
+
+.consult_backToTop a {
+    color: #FFFFFF !important;
+    padding-right: 0;
+}
+
+.consult_backToTop i {
+    margin-right: 10px;
+}
+
+
+/* Обратная связь*/
+
+.titles{
+	width: 140px;
+	float: left;
+}
+
+
+#form_message{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	margin:10px;
+	padding: 40px;
+	width: 320px;
+	height:330px;
+  margin-left: 740px;
+}
+
+#form_message input,textarea{
+	border-radius: 5px;
+	width: 170px;
+  resize: none;
+}
+
+#submit{
+	height: 50px;
+	float: right;
+}
